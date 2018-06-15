@@ -1,0 +1,165 @@
+.header {
+  padding: 0;
+  .section {
+    display: flex;
+    height: 1.6rem;
+    background: #fff;
+
+    .section-title {
+
+      font-size: .55rem;
+      color: #444;
+      width: 33.3%;
+      height: 1.6rem;
+      text-align: center;
+      line-height: 1rem;
+      border-bottom: 1px solid #e4e4e4;
+      .section-name {
+        flex-grow: 1;
+        border-right: .025rem solid #e4e4e4;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 14;
+        background-color: #fff;
+        box-sizing: border-box;
+        padding-top: .3rem;
+      }
+      .section-box {
+        width: 100%;
+        position: absolute;
+        display: -ms-flexbox;
+        display: flex;
+        top: 3.5rem;
+        left: 0;
+        border-top: .01rem solid #e4e4e4;
+        background-color: #fff;
+        .section-left {
+          flex: 1;
+          background-color: #f1f1f1;
+          height: 16rem;
+          overflow-y: auto;
+          li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 .5rem;
+            img {
+              width: .8rem;
+              height: .8rem;
+              vertical-align: middle;
+              margin-right: .2rem;
+            }
+            .item-name {
+              font-size: .5rem;
+              color: #666;
+              line-height: 1.8rem;
+            }
+            .item-count {
+              background-color: #ccc;
+              font-size: .4rem;
+              color: #fff;
+              padding: 0 .1rem;
+              border: .025rem solid #ccc;
+              border-radius: .8rem;
+              vertical-align: middle;
+              margin-right: .25rem;
+            }
+          }
+        }
+        .section-right {
+          background: #fff;
+          li {
+            border-bottom: 1px solid #e4e4e4;
+          }
+        }
+        .section-px {
+          width: 100%;
+          background: #fff;
+          li {
+            font-size: .55rem;
+            line-height: 2.5rem;
+            flex: auto;
+            text-align: left;
+            text-indent: .25rem;
+            border-bottom: .025rem solid #e4e4e4;
+            //display: flex;
+            //justify-content: space-between;
+            //align-items: center;
+          }
+          .shai-head, .shai-body {
+            width: 100%;
+            li {
+              p {
+                font-size: .4rem;
+                color: #333;
+                line-height: 1.5rem;
+                height: 1.5rem;
+                text-align: left;
+                padding-left: .5rem;
+                background-color: #fff;
+              }
+              .el-checkbox {
+                //display: flex;
+                //align-items: center;
+                border: .025rem solid #eee;
+                width: 4.7rem;
+                height: 1.4rem;
+                margin: .25rem;
+                line-height: 1.4rem;
+                border-radius: .125rem;
+                padding: 0 .25rem;
+                span {
+                  font-size: .4rem;
+                  color: #333;
+                }
+              }
+            }
+            .check {
+              width: 4.7rem;
+              height: 1.4rem;
+              margin: .25rem;
+              line-height: 1.4rem;
+              border-radius: .125rem;
+              padding: 0 .25rem;
+            }
+          }
+          .shai-foot {
+            display: flex;
+            background-color: #f1f1f1;
+            width: 100%;
+            padding: .3rem .2rem;
+            .empty {
+              background-color: #fff;
+              margin-right: .5rem;
+              border: .025rem solid #fff;
+              width: 50%;
+              height: 1.8rem;
+              font-size: .8rem;
+              line-height: 1.8rem;
+              border-radius: .2rem;
+            }
+            .sure {
+              background-color: #56d176;
+              color: #fff;
+              border: .025rem solid #56d176;
+              width: 50%;
+              height: 1.8rem;
+              font-size: .8rem;
+              line-height: 1.8rem;
+              border-radius: .2rem;
+              margin-right: 0.4rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.el-main3 {
+  margin-top: 3.55rem;
+  padding: 0;
+  background: #eee;
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,11 @@
+.el-main {
+  margin-top: rem(91);
+  padding: 0;
+  background: #eee; }
+  .el-main .index-main-top .el-input {
+    border: 1px solid #e4e4e4;
+    padding: 0 .3rem;
+    font-size: .65rem;
+    color: #333; }
+
+/*# sourceMappingURL=elm.css.map */

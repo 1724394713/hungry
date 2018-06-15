@@ -1,0 +1,17 @@
+.el-footer {
+  background: #3190e8;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1.95rem !important; }
+  .el-footer .head {
+    height: 1.95rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.95rem;
+    font-size: 0.7rem; }
+
+/*# sourceMappingURL=foot.css.map */

@@ -1,0 +1,17 @@
+// sass写法
+@function rem($px) {
+  @return $px / 46.875 + rem
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

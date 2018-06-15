@@ -1,0 +1,79 @@
+.el-main{
+  .form{
+    background-color: #fff;
+    p{
+      display: flex;
+      justify-content: space-between;
+      padding: .6rem .8rem;
+      border-bottom: 1px solid #f1f1f1;
+      input{
+        color: #666;
+        border: none;
+        outline: none;
+        width: 50%;
+        height: 1rem;
+        font-size: 0.5rem;
+      }
+
+    }
+    .inp{
+      position: relative;
+      height: 0.95rem;
+      .text{
+        position: absolute;
+        top: 1rem;
+        left: 0.8rem;
+      }
+      .kg{
+        position: absolute;
+        top: 1rem;
+        right: 0.5rem;
+      }
+    }
+    .number{
+      display: flex;
+      justify-content: space-between;
+      .img{
+        display: flex;
+        img{
+          margin: 0 0.3rem;
+        }
+        .change{
+          display: flex;
+          flex-direction: column;
+          font-size: .55rem;
+          i:nth-of-type(1){
+
+            color: #666;
+          }
+          i:nth-of-type(2){
+            color: #3b95e9;
+            margin-top: .2rem;
+          }
+        }
+      }
+    }
+  }
+  .tip{
+    font-size: .5rem;
+    color: red;
+    padding: .4rem .6rem;
+    line-height: .5rem;
+  }
+  .login{
+    margin: 0 .5rem 1rem;
+    font-size: .7rem;
+    color: #fff;
+    background-color: #4cd964;
+    padding: .5rem 0;
+    border: 1px;
+    border-radius: .15rem;
+    text-align: center;
+  }
+  .forget{
+    float: right;
+    font-size: .6rem;
+    color: #3b95e9;
+    margin-right: .3rem;
+  }
+}

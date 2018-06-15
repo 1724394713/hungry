@@ -1,0 +1,116 @@
+.el-main{
+  margin-top: rem(91);
+  padding: 0;
+  background: #eee;
+  margin-bottom: 3rem;
+  .index-main-top{
+    width: 100%;
+    .guess-city{
+      margin-bottom: 0.4rem;
+      p,a{
+        width: 100%;
+        height: 1.8rem;
+        border-bottom: 1px solid #e4e4e4;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff;
+      }
+      span{
+        padding: 0.45rem;
+      }
+      p:nth-of-type(1){
+
+        span:nth-of-type(1){
+          font-size: 0.55rem;
+          color: #666;
+        }
+        span:nth-of-type(2){
+          font-weight: 900;
+          font-size: .475rem;
+          color: #9f9f9f;
+        }
+      }
+      p:nth-of-type(2){
+        font-size: 0.75rem;
+        a{
+          span:nth-of-type(1){
+            color: #3190e8;
+          }
+          span:nth-of-type(2){
+            color: #999;
+          }
+        }
+      }
+    }
+    .hot{
+      width: 100%;
+      background: #fff;
+      margin-bottom: 0.4rem;
+      p{
+        color: #666;
+        font-weight: 400;
+        text-indent: .45rem;
+        border-top: 2px solid #e4e4e4;
+        border-bottom: 1px solid #e4e4e4;
+        font-size: 0.55rem;
+        padding: 0.45rem 0;
+      }
+      ul{
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        list-style: none;
+        li{
+          width: 25%;
+          height: 1.75rem;
+          border: 1px solid #e4e4e4;
+          box-sizing: border-box;
+          text-align: center;
+          font-size: 0.6rem;
+          line-height: 1.75rem;
+          a{
+            color: #3190e8;
+          }
+        }
+      }
+    }
+    .group{
+      width: 100%;
+      background: #fff;
+      margin-bottom: 0.4rem;
+      p{
+        color: #666;
+        font-weight: 400;
+        text-indent: .45rem;
+        border-top: 2px solid #e4e4e4;
+        border-bottom: 1px solid #e4e4e4;
+        font-size: 0.55rem;
+        padding: 0.45rem 0;
+      }
+      ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        list-style: none;
+        li{
+          width: 25%;
+          height: 1.75rem;
+          border: 1px solid #e4e4e4;
+          box-sizing: border-box;
+          text-align: center;
+          font-size: 0.6rem;
+          line-height: 1.75rem;
+          a{
+            color: #666;
+          }
+        }
+      }
+    }
+  }
+
+}

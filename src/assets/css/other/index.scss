@@ -1,0 +1,178 @@
+.el-main3{
+
+  padding: 0;
+  background: #eee;
+  margin-bottom: 3rem;
+  .swiper-container{
+    background: #fff;
+    border-bottom: 1px solid #e4e4e4;
+    .swiper-slide{
+      display: flex;
+      flex-wrap: wrap;
+      height: 7rem;
+      margin-bottom: 1rem;
+      position: relative;
+      div{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+          width: 1.8rem;
+          height: 1.8rem;
+          margin-bottom: 0.3rem;
+        }
+        p{
+          text-align: center;
+          font-size: .55rem;
+          color: #666;
+        }
+      }
+    }
+    .swiper-pagination {
+      position: absolute;
+      bottom: 0;
+      left: 45%;
+      text-align: center;
+      transition: 300ms opacity;
+      transform: translate3d(0, 0, 0);
+      z-index: 10;
+    }
+    .swiper-pagination-bullet{
+      margin: 0 0.1rem;
+    }
+  }
+  .shop{
+    margin-top: 0.5rem;
+    background: #fff;
+    border-top: 1px solid #e4e4e4;
+    .near{
+      width: 100%;
+      .shop-icon{
+        color: #999;
+        margin-left: .6rem;
+        vertical-align: middle;
+        width: .6rem;
+        height: .6rem;
+      }
+      .shop-title{
+        color:#999;
+        font-size: 0.55rem;
+      }
+    }
+    .shop-list{
+      .shop-detail {
+
+        a {
+          padding: 0.5rem 0.4rem;
+          display: flex;
+          justify-content: space-between;
+          border: 1px solid #f9f9f9;
+          .shop-img {
+            width: 2.7rem;
+            height: 2.7rem;
+            display: block;
+            margin-right: .4rem;
+            img {
+              width: 100%;
+              height: 100%;
+              margin: 0.4rem 0;
+            }
+          }
+          .shop-content {
+            flex: auto;
+            .between {
+              display: flex;
+              justify-content: space-between;
+            }
+            .shop-head {
+              display: flex;
+              span {
+                font-size: 0.65rem;
+              }
+              h5 {
+                width: 8.5rem;
+              }
+              .pin {
+                display: inline-block;
+                font-size: .5rem;
+                line-height: .6rem;
+                color: #333;
+                background-color: #ffd930;
+                padding: 0 .1rem;
+                border-radius: .1rem;
+                margin-right: .2rem;
+              }
+              .bao {
+                font-size: .4rem;
+                color: #999;
+                border: .025rem solid #f1f1f1;
+                padding: 0 .04rem;
+                border-radius: .08rem;
+                margin-left: .05rem;
+                letter-spacing: 0.3em;
+                display: flex;
+                align-items: center;
+                list-style: none;
+                height: 0.6rem;
+              }
+            }
+            .shop-txt {
+              p {
+                display: flex;
+                position: relative;
+                .el-rate {
+                  color: #ff6000;
+
+                }
+                .el-rate-text {
+                  font-size: 0.6rem;
+                }
+                span {
+                  font-size: 0.4rem;
+                  padding-top: 0.5rem;
+                }
+                .shou {
+                  padding-left: 0.5rem;
+                }
+
+              }
+              p:nth-of-type(2) {
+                margin-top: 0.5rem;
+                span {
+                  border-radius: 3px;
+                  padding: 0;
+                  display: inline-block;
+                }
+                .feng {
+
+                  color: #fff;
+                  background-color: #3190e8;
+                  border: .025rem solid #3190e8;
+                  font-size: 0.3rem;
+                }
+                .zhun {
+                  color: #3190e8;
+                  border: .025rem solid #3190e8;
+                  margin-left: 0.1rem;
+                  font-size: 0.3rem;
+                }
+              }
+
+            }
+            .shop-foot {
+              margin-top: .52rem;
+              font-size: .4rem;
+              color: #333;
+              padding: 0;
+              p:nth-of-type(1) {
+                color: #666;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.el-header {
+  background: #3190e8;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  line-height: 0;
+  .head {
+    height: 1.95rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.95rem;
+    font-size: 0.7rem;
+    .back {
+      font-size: 0.7rem;
+    }
+    .lign {
+      font-size: 0.65rem;
+    }
+    .city {
+      font-size: .8rem;
+      color: #fff;
+      text-align: center;
+      font-weight: 700;
+      width: 50%;
+    }
+    .cityname {
+      font-size: .8rem;
+      color: #fff;
+      text-align: center;
+      width: 50%;
+    }
+    .changeCity {
+      font-size: .6rem;
+      color: #fff;
+    }
+
+  }
+  .head1 {
+    height: 1.95rem;
+    color: #fff;
+    display: flex;
+    line-height: 3;
+    .back {
+      font-size: 0.7rem;
+    }
+    .city {
+      font-size: .8rem;
+      color: #fff;
+      text-align: center;
+      font-weight: 700;
+      width: 50%;
+      margin-left: 3rem;
+    }
+  }
+
+}
